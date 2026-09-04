@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Projects</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">MyPortfolio</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- PAGE HEADER -->
+
+    <section class="page-header">
+
+        <p class="welcome">MY WORK</p>
+
+        <h1>
+            Projects, <span>skills, achievements & interests</span>
+        </h1>
+
+        <p>
+            A snapshot of the ideas, achievements, skills,
+            and creative interests that shaped how I think,
+            design, and build.
+        </p>
+
+    </section>
+
+
+    <!-- PORTFOLIO BUTTONS -->
+
+    <div class="portfolio-tabs">
+
+        <button class="tab-button active" onclick="showSection('projects', this)">
+            💻 Projects
+        </button>
+
+        <button class="tab-button" onclick="showSection('skills', this)">
+            🌐 Skills
+        </button>
+
+        <button class="tab-button" onclick="showSection('achievements', this)">
+            🏆 Achievements
+        </button>
+
+        <button class="tab-button" onclick="showSection('hobbies', this)">
+            ❤️ Hobbies
+        </button>
+
+    </div>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="portfolio-content active-content">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <div class="card-icon">💻</div>
+
+                <h3>Personal Website</h3>
+
+                <p>
+                    A responsive personal website created using
+                    HTML and CSS to showcase my profile and work.
+                </p>
+
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">🎨</div>
+
+                <h3>Creative Design</h3>
+
+                <p>
+                    A creative design project focused on developing
+                    an attractive and user-friendly interface.
+                </p>
+
+                <span class="tag">UI Design</span>
+                <span class="tag">Creative</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="portfolio-content">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="card-container">
+
+            <div class="card skill-card">
+
+                <div class="card-icon">🌐</div>
+
+                <h3>HTML</h3>
+
+                <p>
+                    Creating structured and semantic web pages.
+                </p>
+
+                <div class="skill-bar">
+                    <div class="skill-progress html"></div>
+                </div>
+
+            </div>
+
+
+            <div class="card skill-card">
+
+                <div class="card-icon">🎨</div>
+
+                <h3>CSS</h3>
+
+                <p>
+                    Designing responsive and attractive websites.
+                </p>
+
+                <div class="skill-bar">
+                    <div class="skill-progress css"></div>
+                </div>
+
+            </div>
+
+
+            <div class="card skill-card">
+
+                <div class="card-icon">💡</div>
+
+                <h3>Problem Solving</h3>
+
+                <p>
+                    Finding creative solutions to different challenges.
+                </p>
+
+                <div class="skill-bar">
+                    <div class="skill-progress problem"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section id="achievements" class="portfolio-content">
+
+        <h2 class="section-title">
+            Achievements & Certificates
+        </h2>
+
+        <div class="card-container">
+
+
+            <!-- CSS NC II -->
+
+            <div class="card certificate-card">
+
+                <img
+                    src="../images/css-nc2.jpg"
+                    alt="Computer Systems Servicing NC II Certificate"
+                    class="certificate-image"
+                >
+
+                <div class="card-icon">🖥️</div>
+
+                <h3>
+                    Computer Systems Servicing NC II
+                </h3>
+
+                <p>
+                    National Certificate II in Computer Systems
+                    Servicing, demonstrating skills in computer
+                    installation, configuration, maintenance,
+                    and troubleshooting.
+                </p>
+
+                <span class="tag">NC II</span>
+                <span class="tag">CSS</span>
+
+            </div>
+
+
+            <!-- BASIC LIFE SAFETY -->
+
+            <div class="card certificate-card">
+
+                <img
+                    src="../images/basic-life-safety.jpg"
+                    alt="Basic Life Safety Training Certificate"
+                    class="certificate-image"
+                >
+
+                <div class="card-icon">🩹</div>
+
+                <h3>
+                    Basic Life Safety Training
+                </h3>
+
+                <p>
+                    Certificate of Participation in Basic
+                    Life Safety Training.
+                </p>
+
+                <span class="tag">Training</span>
+                <span class="tag">Certificate</span>
+
+            </div>
+
+
+            <!-- GOLD MEDALIST -->
+
+            <div class="card certificate-card">
+
+                <img
+                    src="../images/gold-medalist.jpg"
+                    alt="Gold Medalist Award"
+                    class="certificate-image"
+                >
+
+                <div class="card-icon">🥇</div>
+
+                <h3>
+                    Gold Medalist
+                </h3>
+
+                <p>
+                    Recognized as a Gold Medalist for outstanding
+                    achievement at St. Cecilia’s College Cebu, Inc.
+                </p>
+
+                <span class="tag">Achievement</span>
+                <span class="tag">Award</span>
+
+            </div>
+
+
+          
+
+            <!-- ITECH QUIZ BOWL 2026 -->
+
+            <div class="card certificate-card">
+
+                <img
+                    src="../images/itech-quiz-bowl-2026.jpg"
+                    alt="ITECH Quiz Bowl 2026 Award"
+                    class="certificate-image"
+                >
+
+                <div class="card-icon">🥈</div>
+
+                <h3>
+                    ITECH Quiz Bowl 2026
+                </h3>
+
+                <p>
+                    1st Runner-Up in the ITECH Quiz Bowl 2026.
+                </p>
+
+                <span class="tag">Quiz Bowl</span>
+                <span class="tag">2026</span>
+
+            </div>
+
+
+            <!-- VOLLEYBALL -->
+
+            <div class="card certificate-card">
+
+                <img
+                    src="../images/volleyball-champion-2025.jpg"
+                    alt="Volleyball Champion 2025"
+                    class="certificate-image"
+                >
+
+                <div class="card-icon">🏐</div>
+
+                <h3>
+                    Volleyball Champion 2025
+                </h3>
+
+                <p>
+                    Part of the championship team in the
+                    Volleyball competition in 2025.
+                </p>
+
+                <span class="tag">Volleyball</span>
+                <span class="tag">Champion</span>
+
+            </div>
+
+
+            <!-- QUIZ BOWL 2025 -->
+
+            <div class="card certificate-card">
+
+                <img
+                    src="../images/quiz-bowl-2025.jpg"
+                    alt="Quiz Bowl 2025 Award"
+                    class="certificate-image"
+                >
+
+                <div class="card-icon">🥉</div>
+
+                <h3>
+                    Quiz Bowl 2025
+                </h3>
+
+                <p>
+                    3rd Runner-Up in the Quiz Bowl competition
+                    in 2025.
+                </p>
+
+                <span class="tag">Quiz Bowl</span>
+                <span class="tag">2025</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOBBIES ================= -->
+
+    <section id="hobbies" class="portfolio-content">
+
+        <h2 class="section-title">My Hobbies</h2>
+
+        <div class="card-container">
+
+
+            <div class="card hobby-card">
+
+                <div class="card-icon">🎮</div>
+
+                <h3>Gaming</h3>
+
+                <p>
+                    I enjoy playing games during my free time.
+                </p>
+
+            </div>
+
+
+            <div class="card hobby-card">
+
+                <div class="card-icon">🎵</div>
+
+                <h3>Music</h3>
+
+                <p>
+                    Listening to music helps me relax
+                    and stay creative.
+                </p>
+
+            </div>
+
+
+            <div class="card hobby-card">
+
+                <div class="card-icon">📷</div>
+
+                <h3>Photography</h3>
+
+                <p>
+                    I enjoy capturing interesting moments
+                    and places.
+                </p>
+
+            </div>
+
+
+            <div class="card hobby-card">
+
+                <div class="card-icon">💃</div>
+
+                <h3>Dancing</h3>
+
+                <p>
+                    I enjoy learning dance steps through
+                    TikTok and workshops.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Kisha Nicole P. Paran. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+
+
+</body>
+</html>
